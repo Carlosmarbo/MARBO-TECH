@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Servicios Tecnológicos MARBO</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<style>
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#F8FAFC;
+}
+
+.navbar{
+    background:#0F172A;
+}
+
+.hero{
+    background:linear-gradient(135deg,#0F172A,#1E40AF,#06B6D4);
+    color:white;
+    padding:120px 0;
+}
+
+.hero h1{
+    font-size:3rem;
+    font-weight:800;
+}
+
+.hero p{
+    font-size:1.2rem;
+}
+
+.btn-whatsapp{
+    background:#25D366;
+    border:none;
+    color:white;
+    font-weight:600;
+}
+
+.btn-whatsapp:hover{
+    background:#20bd5a;
+}
+
+.offer{
+    background:linear-gradient(135deg,#10B981,#059669);
+    color:white;
+    border-radius:20px;
+    padding:40px;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+.section-title{
+    font-weight:800;
+    color:#0F172A;
+    margin-bottom:15px;
+}
+
+.card-service{
+    border:none;
+    border-radius:20px;
+    transition:.3s;
+    height:100%;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.card-service:hover{
+    transform:translateY(-8px);
+}
+
+.icon-box{
+    width:70px;
+    height:70px;
+    background:#EBF4FF;
+    border-radius:15px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:20px;
+}
+
+.icon-box i{
+    font-size:2rem;
+    color:#2563EB;
+}
+
+.why{
+    background:#0F172A;
+    color:white;
+}
+
+.step{
+    text-align:center;
+}
+
+.step-number{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:#2563EB;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    font-size:1.5rem;
+    font-weight:bold;
+}
+
+.cta{
+    background:linear-gradient(135deg,#1E40AF,#06B6D4);
+    color:white;
+    border-radius:25px;
+}
+
+footer{
+    background:#0F172A;
+    color:white;
+}
+
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">
+            SERVICIOS TECNOLÓGICOS MARBO
+        </a>
+    </div>
+</nav>
+
+<section class="hero">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <div class="col-lg-7">
+
+                <span class="badge bg-info text-dark mb-3">
+                    Soporte Técnico Profesional
+                </span>
+
+                <h1>
+                    Soluciones Tecnológicas Confiables para Impulsar tu Productividad
+                </h1>
+
+                <p class="mt-4">
+                    Reparación, mantenimiento, optimización de computadoras,
+                    soporte técnico empresarial, licencias de software y venta
+                    de componentes tecnológicos.
+                </p>
+
+                <a href="https://wa.me/50686060328"
+                   class="btn btn-whatsapp btn-lg mt-3">
+                    <i class="bi bi-whatsapp"></i>
+                    Solicitar Atención
+                </a>
+
+            </div>
+
+            <div class="col-lg-5 text-center mt-5 mt-lg-0">
+                <img src="https://images.unsplash.com/photo-1518770660439-4636190af475"
+                     class="img-fluid rounded-4 shadow"
+                     alt="Tecnología">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="container py-5">
+
+    <div class="offer text-center">
+
+        <h2 class="fw-bold">
+            🎉 Oferta de Lanzamiento
+        </h2>
+
+        <h3 class="mt-3">
+            Diagnóstico GRATUITO para los primeros 5 clientes
+        </h3>
+
+        <p class="mt-3 fs-5">
+            Los primeros 5 clientes que nos escriban por WhatsApp
+            recibirán un diagnóstico totalmente GRATIS.
+        </p>
+
+        <h4 class="fw-bold">
+            Además participarán por una sorpresa especial 🎁
+        </h4>
+
+        <a href="https://wa.me/50686060328"
+           class="btn btn-light btn-lg mt-3">
+            Reclamar mi diagnóstico gratuito
+        </a>
+
+    </div>
+
+</section>
+
+<section class="container py-5">
+
+    <div class="text-center mb-5">
+        <h2 class="section-title">
+            Servicios para Personas
+        </h2>
+    </div>
+
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="card-service p-4 bg-white">
+                <div class="icon-box">
+                    <i class="bi bi-laptop"></i>
+                </div>
+                <h4>Reparación de Equipos</h4>
+                <p>
+                    Diagnóstico y reparación de computadoras de escritorio y laptops.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card-service p-4 bg-white">
+                <div class="icon-box">
+                    <i class="bi bi-speedometer2"></i>
+                </div>
+                <h4>Optimización</h4>
+                <p>
+                    Mejora de rendimiento, limpieza y actualización de equipos.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card-service p-4 bg-white">
+                <div class="icon-box">
+                    <i class="bi bi-shield-check"></i>
+                </div>
+                <h4>Eliminación de Virus</h4>
+                <p>
+                    Protección contra malware y amenazas informáticas.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="container py-5">
+
+    <div class="text-center mb-5">
+        <h2 class="section-title">
+            Soluciones para Empresas
+        </h2>
+    </div>
+
+    <div class="row g-4">
+
+        <div class="col-md-6">
+            <div class="card-service p-4 bg-white">
+                <h4>Soporte Técnico Empresarial</h4>
+                <ul>
+                    <li>Atención remota y presencial.</li>
+                    <li>Respuesta rápida.</li>
+                    <li>Planes recurrentes.</li>
+                    <li>Resolución de incidentes.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card-service p-4 bg-white">
+                <h4>Administración Tecnológica</h4>
+                <ul>
+                    <li>Inventario tecnológico.</li>
+                    <li>Renovación de equipos.</li>
+                    <li>Mantenimiento programado.</li>
+                    <li>Asesoría especializada.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="why py-5">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">
+                ¿Por qué elegir MARBO?
+            </h2>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-3 text-center">
+                <h3>✓</h3>
+                <p>Atención Personalizada</p>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <h3>✓</h3>
+                <p>Diagnóstico Profesional</p>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <h3>✓</h3>
+                <p>Precios Competitivos</p>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <h3>✓</h3>
+                <p>Soporte Rápido y Confiable</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="container py-5">
+
+    <div class="text-center mb-5">
+        <h2 class="section-title">
+            ¿Cómo Trabajamos?
+        </h2>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-3 step">
+            <div class="step-number">1</div>
+            <h5 class="mt-3">Contacto</h5>
+        </div>
+
+        <div class="col-md-3 step">
+            <div class="step-number">2</div>
+            <h5 class="mt-3">Diagnóstico</h5>
+        </div>
+
+        <div class="col-md-3 step">
+            <div class="step-number">3</div>
+            <h5 class="mt-3">Cotización</h5>
+        </div>
+
+        <div class="col-md-3 step">
+            <div class="step-number">4</div>
+            <h5 class="mt-3">Solución</h5>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="container py-5">
+
+    <div class="cta p-5 text-center">
+
+        <h2 class="fw-bold">
+            ¿Tu computadora está lenta o presenta fallas?
+        </h2>
+
+        <p class="mt-3">
+            Escríbenos ahora y aprovecha la promoción de lanzamiento.
+        </p>
+
+        <a href="https://wa.me/50686060328"
+           class="btn btn-success btn-lg">
+            <i class="bi bi-whatsapp"></i>
+            Contactar por WhatsApp
+        </a>
+
+    </div>
+
+</section>
+
+<footer class="py-4 text-center">
+
+    <h4>SERVICIOS TECNOLÓGICOS MARBO</h4>
+
+    <p>
+        Soluciones tecnológicas confiables para impulsar tu productividad.
+    </p>
+
+    <p>
+        WhatsApp: +506 8606-0328
+    </p>
+
+</footer>
+
+</body>
+</html>
